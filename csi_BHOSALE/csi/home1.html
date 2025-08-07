@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSI-DMCE</title>
+    <link rel="stylesheet" href="home1.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container-fluid img">
+      <section class="hero-section">
+        <div class="logos">
+          <img class="img1" src="./images/dmce-logo.png" alt="DMCE Logo" />
+          <img
+            class="img2"
+            src="./images/clgname-removebg-preview.png"
+            alt="College Name"
+          />
+        </div>
+      </section>
+
+      <section class="csi-section">
+        <img
+          src="./images/csi-dmce-logo.png"
+          class="csi-dmce-logo"
+          alt="CSI Logo"
+        />
+        <h1>COMPUTER SOCIETY OF INDIA - DMCE</h1>
+        <div class="buttons">
+          <a href="./aboutus.html">ABOUT US</a>
+          <a href="#events">OUR EVENTS</a>
+        </div>
+      </section>
+    </div>
+
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse center-navbar" id="navbarNav">
+          <ul class="navbar-nav text-center">
+            <li class="nav-item">
+              <a class="nav-link active" href="./jatin/home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutus.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./team.html">Team</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+   
+
+    <!-- <script>
+      const sliderWrapper = document.querySelector('.slider-wrapper');
+const prevBtn = document.querySelector('.slider-btn.prev');
+const nextBtn = document.querySelector('.slider-btn.next');
+
+let scrollAmount = 0;
+const scrollStep = 320;
+
+prevBtn.addEventListener('click', () => {
+  scrollAmount -= scrollStep;
+  if (scrollAmount < 0) scrollAmount = 0;
+  sliderWrapper.style.transform = `translateX(-${scrollAmount}px)`;
+});
+
+nextBtn.addEventListener('click', () => {
+  scrollAmount += scrollStep;
+  const maxScroll = sliderWrapper.scrollWidth - document.querySelector('.event-slider').clientWidth;
+  if (scrollAmount > maxScroll) scrollAmount = maxScroll;
+  sliderWrapper.style.transform = `translateX(-${scrollAmount}px)`;
+});
+    </script> -->
+  </body>
+</html>

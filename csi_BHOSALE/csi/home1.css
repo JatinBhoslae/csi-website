@@ -1,0 +1,125 @@
+:root {
+    --accent: #00bfff;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+}
+
+.img {
+    background-image: url(./images/background-3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.hero-section {
+    min-height: 100vh;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+     align-items: center;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 45vh;
+}
+
+.logos .img1 {
+    max-height: 300px;
+    max-width: 100%;
+}
+
+.logos .img2 {
+    max-height: 450px;
+    max-width: 100%;
+}
+
+.csi-section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.csi-section img {
+    max-width: 250px;
+    width: 100%;
+}
+
+.csi-section h1 {
+    font-size: 1.8rem;
+    margin: 20px 0;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.buttons a {
+    padding: 10px 20px;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 2px solid white;
+    transition: background-color 0.5s;
+}
+
+.buttons a:hover {
+    background-color: #00bfff;
+    color: black;
+    border: #00bfff;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .logos {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .csi-section h1 {
+        font-size: 1.4rem;
+        padding: 0 10px;
+    }
+
+    .text-banner {
+        font-size: 1.2rem;
+    }
+
+    .buttons a {
+        width: 100%;
+        max-width: 200px;
+        text-align: center;
+    }
+
+}
+
+.center-navbar {
+    justify-content: center;
+}
+
+.navbar-nav {
+    gap: 20px;
+}

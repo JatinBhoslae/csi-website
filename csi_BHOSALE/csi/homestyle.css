@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img{
+    background-attachment: fixed;
+    background-image: url(./images/background-3.jpg);
+        background-repeat: no-repeat;
+    height: 320vh;
+    background-size: 100% 100%;
+    position: relative;
+   
+}
+.logo{
+ 
+    width: 50vh;
+    margin-top: 100px;
+    
+
+}
+
+.b1{
+    width: 40%;
+    border-right: 3px solid white;
+}
+.logo2{
+    width: 110vh;
+}
+.csi-logo{
+    
+    margin-top: 70vh;
+    width: 30vw;
+}
+.csi{
+    position: absolute;
+    top: 65%;
+    left: 28%;
+}
+
+
+@media (max-width:700px) {
+    .img{
+        height: 200vh;
+    }
+}
